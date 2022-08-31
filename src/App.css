@@ -90,9 +90,16 @@
 
 .rightside {
   display: flex;
-  width: 100%;
+  flex-direction: column;
   color: orange;
+  white-space: nowrap;
   margin-left: 1vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+  overflow: auto;
+  height: 23vw;
+  line-height: 0.5;
 }
 
 .markdown{

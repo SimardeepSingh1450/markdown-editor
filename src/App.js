@@ -39,7 +39,7 @@ function App() {
           <div className='preview'>
           <h1>PREVIEW</h1>
           </div>
-        <div className='rightside'><ReactMarkdown>{lefttext}</ReactMarkdown></div>
+        <div className='rightside'><ReactMarkdown>{`${lefttext}`}</ReactMarkdown></div>
         </div>
       </div>
       <br/>
